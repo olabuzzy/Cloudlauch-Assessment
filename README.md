@@ -34,6 +34,8 @@
   - cloudlauch-app-sg: allows HTTP (80) only within VPC.
   - cloudlauch-db-sg: allows MySQL (3306) only from app subnet.
 
+## IAM JSON Policy
+'''json
 {
 	"Version": "2012-10-17",
 	"Statement": [
